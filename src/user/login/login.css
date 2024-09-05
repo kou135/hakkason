@@ -1,0 +1,93 @@
+body{
+    background-color: black;
+}
+
+.backimage{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    opacity: 0.4;
+    position: relative;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    background-color: darkblue;
+    color: black;
+    height: 80px;
+    align-items: center;
+    margin-top: 30px;
+    animation: slideDown 2s ease-out; /* アニメーションを追加 */
+}
+
+.new_register{
+    background-color: aliceblue;
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    width: 300px;
+    height: 40px;
+    margin-left: 40px;
+    margin-bottom: 55px;
+    border: 5px solid;
+    border-color:mediumblue;
+    border-radius: 20px;
+}
+
+.input{
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+
+
+.set_login{
+    display: flex;
+    flex-flow: column;
+}
+
+.mail_login{
+    width: 430px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.pass_login{
+    width: 430px;
+    height: 50px;
+    margin-bottom: 50px;
+}
+
+.button_login{
+    width: 150px;
+    height: 55px;
+    margin:0px 0px 80px 158px;
+    background-color: red;
+    display: inline-block;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 40%;
+}
+
+
+/* アニメーションの定義 */
+@keyframes slideDown {
+    from {
+      transform: translateY(-100%); /* 上から始まる */
+    }
+    to {
+      transform: translateY(0); /* 元の位置に戻る */
+    }
+    }  
+  /* タイトルにアニメーションを適用 */
+.title {
+    animation: slideDown 2s ease-out; /* 2秒で下に滑るように表示 */
+    }
+    

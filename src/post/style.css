@@ -1,0 +1,159 @@
+body{
+  display: flex;
+  }
+  
+  .nav{
+    width: 20%;
+  }
+  
+  .container {
+    margin: 0 auto;
+  }
+  
+  .all{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .post {
+    width: 80%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: black;
+  }
+  
+  .back{
+    text-align: center;
+    color: aliceblue;
+    font-size: 50px;
+    margin: 50px;
+  }
+  
+  .one_line{
+    display: flex;
+    gap: 20px;
+    height: 85px;
+  }
+  
+  .main_category{
+    display: flex;
+  }
+  .category2 {
+    width: 300px;
+    height: 100%;
+    margin-left: 50px;
+    align-items: center;
+    font-size: 30px;
+  }
+  
+  .category3{
+    width: 730px;
+    height: 100%;
+    margin-left: 50px;
+    font-size: 30px;
+  }
+  
+  .select{
+    color: aliceblue;
+    font-size: 30px;
+    width: 118px;
+    margin: 20px 0px 20px 0px;
+  }
+  
+  .main_date{
+    display: flex;
+  }
+  
+  .date{
+    color: aliceblue;
+    font-size: 30px;
+    margin: 20px 0px 20px 0px;
+  }
+  
+  .main_title{
+    display: flex;
+    height: 85px;
+    margin: 30px 0;
+  }
+  
+  .title{
+    color: aliceblue;
+    font-size: 30px;
+    margin: 20px 0px 20px 0px;
+  }
+  
+  .main_point{
+    display: flex;
+    height: 85px;
+    margin: 30px 0;
+  }
+  
+  .point{
+    color: aliceblue;
+    font-size: 30px;
+    width: 118px;
+    margin: 20px 0px 20px 0px;
+  }
+  
+  .write{
+    justify-content: center;
+    margin-left: 50px;
+    margin: 0 auto;
+  }
+  
+  .write1{
+    font-size: 40px;
+    background-color: #D73C3C;
+    width: 25vw;
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+    padding: 30px;
+    color: white;
+  }
+  
+  .reason{
+    color: aliceblue;
+    font-size: 30px;
+  }
+  
+  .real_action{
+    color: aliceblue;
+    font-size: 30px;
+  }
+  
+  .study{
+    color: aliceblue;
+    font-size: 30px;
+  }
+  
+  .next_action{
+    color: aliceblue;
+    font-size: 30px;
+  } 
+  
+  .category4{
+    width: 900px;
+    height: 200px;
+    margin: 0px 30px 30px 30px;
+  }
+  
+  .item{
+    width: 90%;
+    text-align: center;
+  }
+  /* 
+      
+   } 
+    
+    .container {
+      width: 91%;
+    }
+    
+  
+    
+    
+    } */

@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="register">
+    <div>
+    <img class="ookami_logo" src="src/assets/img/image 12.png" alt="狼ロゴ">
+    </div>
+    <div class="back_title">
+      <h1 class="new_title">新規登録</h1>
+    </div>
+    <form action="./register.php" method="POST">
+      <div class="p_new">
+        <div class="new_register">
+          <input class="set_register" type="text" name="name" placeholder="名前" required>
+          <input class="set_register" type="text" name="email" placeholder="メールアドレス" required>
+        <select class="option_register" name="gender" required>
+          <option value="" disabled selected>性別を選択</option>
+          <option value="1">男性</option>
+          <option value="2">女性</option>
+        </select>
+        <select class="option_register" name="category">
+          <option value="" disabled selected>所属POSSE選択</option>
+          <option value="1">①</option>
+          <option value="2">②</option>
+          <option value="3">③</option>
+          <input class="set_register" type="text" name="password" placeholder="パスワード" required>
+        </select>
+        </div>
+        <div>
+          <img class="ookami_picture" src="src/assets/img/image 13.png" alt="狼遠吠え">
+        </div>
+      </div>
+      <div class="p_com">
+      <button class="com_register" type="submit">登録</button>
+      </div>
+    </form>
+  </section>
+</body>
+</html>
